@@ -1,8 +1,8 @@
 # bitEngine Hub — EFR32MG24 Zigbee NCP firmware
 
 Zigbee 3.0 coordinator firmware for the **Silicon Labs EFR32MG24** in the
-[bitEngine Hub](https://home.bitengine.tech). The MG24 runs Silicon Labs **EmberZNet** as a
-Network Co-Processor (NCP) and speaks **EZSP** over UART to the hub's ESP32-C5, which exposes it to
+[bitEngine Hub](https://home.bitengine.tech). The MG24 runs Silicon Labs **EmberZNet** (8.2 on the
+current prototype builds) as a Network Co-Processor (NCP) and speaks **EZSP** over UART to the hub's ESP32-C5, which exposes it to
 Home Assistant as EZSP-over-TCP on port `6638` (ZHA, Zigbee2MQTT `ember`).
 
 > **Status: pre-release.** Project files and the first release images follow the ESP32-C5
@@ -62,7 +62,7 @@ Step-by-step instructions will be published with the first release.
 
 ## License
 
-Copyright 2026 bitEngine.
+Copyright 2026 bitEngine, Inc.
 
 The project files, configuration and documentation in this repository are licensed under the
 Apache License, Version 2.0 — see [LICENSE](LICENSE).
