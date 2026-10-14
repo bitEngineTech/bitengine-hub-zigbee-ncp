@@ -1,0 +1,31 @@
+# Simplicity Studio build output
+**/GNU ARM v*/
+**/IAR ARM*/
+build/
+autogen/
+*.o
+*.d
+*.map
+*.axf
+*.out
+*.elf
+*.bin
+*.hex
+*.s37
+*.gbl
+
+# Simplicity Studio metadata
+.settings/
+.cproject
+.project
+*.pdm
+
+# Signing keys — never commit
+*.pem
+*-key.txt
+*_key*
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db

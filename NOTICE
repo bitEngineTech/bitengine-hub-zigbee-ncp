@@ -1,0 +1,14 @@
+bitEngine Hub — EFR32MG24 Zigbee NCP firmware
+Copyright 2026 bitEngine (https://bitengine.tech)
+
+The project files, configuration and documentation in this repository
+are licensed under the Apache License, Version 2.0.
+
+Pre-built firmware images published in this repository's Releases are
+built with the Silicon Labs Simplicity SDK and contain Silicon Labs
+software (EmberZNet, Gecko Bootloader, platform libraries), which is
+licensed under the Silicon Labs Master Software License Agreement
+(MSLA) and is not covered by the Apache License. Those images are
+provided for use on Silicon Labs devices only. The Silicon Labs source
+is not included here; obtain the SDK from Silicon Labs via Simplicity
+Studio.
